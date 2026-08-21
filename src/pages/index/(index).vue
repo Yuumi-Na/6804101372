@@ -3,7 +3,7 @@
     <q-form @submit="onSubmit" @reset="onReset" class="q-gutter-md" style="max-width: 600px">
       <q-input v-model="name" filled label="Your name *" hint="Name and surname" />
       <q-input v-model="age" filled type="number" label="Your age *" />
-      <q-toggle v-model="accept" label="I accept the license and terms" />
+      <q-toggle v-model="accept" label="I accept the license and terms (我接受许可和条款语言) " />
       <div>
         <q-btn label="SUBMIT" type="submit" color="primary" />
         <q-btn label="RESET" type="reset" color="primary" flat class="q-ml-sm" />
